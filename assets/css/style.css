@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html{
+  font-size: 16px;
+  background-color: #ffffff;
+  color: black;
+  font-family: Roboto;
+}
+
+header{
+  min-height: 100vh;
+  background:linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5) ) , url(../images/header.jpg) center;
+  background-size: cover;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo{
+  width: 150px;
+  height: 100px;
+}
+
+.main-nav{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.main-nav li a{
+  color: black;
+  text-transform: uppercase;
+}
+
+.main-nav li a:hover{
+  color: rgb(238, 67, 67);
+  text-transform: uppercase;
+}
+
+.hero-box{
+  position: absolute;
+  top: 40%; left: 35%;
+}
+
+h1{
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  border: solid 1px black;
+  margin-right: 15px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  color:black ;
+  background-color: white;
+}
+
+.activities{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+hr{
+  width: 100px;
+  margin: 20px auto;
+  border: solid 2px ;
+}
+
+.activities img{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px; 
+  margin-bottom: 20px;
+}
+
+.activities h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.activities h3:hover{
+  color: rgb(241, 93, 93);
+}
+
+.activities p{
+  text-align: center;
+}
+
+.active{
+  padding: 0;
+}
+
+.active img{
+  width: 100%;
+  opacity: .8;
+  transition: .5s;
+}
+
+.active img:hover{
+  opacity: 1;
+  transform:translatey(20PX);
+}
+
+form{
+  margin-top: 50px;
+}
+
+label{
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+input[type=text] , input[type=email] , select , textarea{
+  width: 100%;
+  padding: 7px;
+  border: solid #ccc 1px;
+  border-radius: 3px;
+  font-size: large;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input [type=checkbox]{
+  margin-bottom: 10px;
+}
+
+button{
+  background-color:black;
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px ;
+  border-radius: 16px;
+}
+
+button:hover{
+  background-color:white;
+  color: black;
+}
+
+footer{
+  padding: 40px 0px;
+  background-color: rgb(78, 75, 75);
+}
+
+footer p{
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer i{
+  color: rgb(3, 3, 131);
+}
+
+footer h3{
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
